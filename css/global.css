@@ -1,0 +1,14 @@
+/*Colors Project*/
+
+body {
+    padding-top: 4rem;
+    --background-color: #2B2B2B;
+    --background-header: #706E3E;
+    --hamburger-menu: #D6D176;
+    --background-card: #D6D176;
+    --purchase-button: #2AB6E6;
+    
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }

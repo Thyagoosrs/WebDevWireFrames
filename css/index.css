@@ -1,6 +1,59 @@
-.cabecalho{
+.containerHeader{
+    background-color: var(--background-header);
+    position: fixed;
+    width: 100rem;
+    top:0rem;
+}
+
+
+
+/*.cabecalho{
     background-color: #706E3E;
     position: fixed;
     width: 100vw;  
     top: 0px;
+}*/
+
+.hamburger-menu {
+    position: relative;
+    color: var(--hamburger-menu);
+    
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.imageCard {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3.5rem;
+    width: 10rem;
+}
+
+.inputBusca {
+    padding-left: 10px;
+}
+
+.card {
+    background-color: var(--background-card);
+    position: absolute;
+}
+
+.corpoCard h3 {
+    text-align: center;
+}
+
+.corpoCard h4 {
+    text-align: center;
+}
+
+.containerStars {
+    align-items: center;
+    padding-left: 110px;
+}
+
+.purchaseButton {
+    text-align: center;
 }

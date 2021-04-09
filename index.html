@@ -6,19 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOME</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/global.css">
+    <!--<link rel="stylesheet" href="css/reset.css">-->
 
 
 </head>
 
 <body>
     <header>
-        <div class="cabecalho">
-            <form action="busca">O que procura?</form>
-            <button>Login ou Cadastrar-se</button>
+        <div class="containerHeader">
+            <div class="hamburger-menu">
+                <hr size=3 style="width: 2rem; text-align: left; margin-left: 1rem">
+                <hr size=3 style="width: 2rem; text-align: left; margin-left: 1rem">
+                <hr size=3 style="width: 2rem; text-align: left; margin-left: 1rem">
+            </div>
+            <div class="inputBusca">
+                <input type="text" style="background-color: #BDBA75; border: none; border-radius: 7px; width: 22rem; height: 2rem; " id="campoDeBusca" name="campo de busca" placeholder="O que procura?">
+            </div>
         </div>
     </header>
-    <h1>Página Principal</h1>
-    <p>My first paragraph.</p>
+
+    <h3>Mais Vendidos</h3>
+
+
+    <div class="generalCards">
+        <div class="card">
+            <figure>
+                <img class="imageCard" src="./img/HP-Reliquias_da_morte.jpg" alt="Image Card 01">
+            </figure>
+            <div class="corpoCard">
+                <h3>Harry Potter e as Relíquias da Morte</h3>
+                <h4>Rowling, J. K.</h4>
+                <div class="containerStars">
+                    <figure>
+                        <img class="star1" style="width: 10px;" src="./img/star_preenchido.png">
+                        <img class="star2" style="width: 10px;"  src="./img/star_preenchido.png">
+                        <img class="star3" style="width: 10px;"  src="./img/star_preenchido.png">
+                        <img class="star4" style="width: 10px;"  src="./img/star_preenchido.png">
+                        <img class="star5" style="width: 10px;"  src="./img/star_vazado.png">
+                    </figure>
+                </div>
+            </div>
+            <div class="purchaseButton">
+                <p>Comprar</p>
+            </div>
+        </div>
+
+    </div>
 
 </body>
 
