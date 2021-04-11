@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+#menu{
+    width: 8%;
+}
+#carrinho{
+    width: 8%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #2B2B2B;
+}
+
+#campoDeBusca{
+    background-color:#BDBA75 ;
+    border: none;
+    border-radius: 20px;
+    width: 910px; 
+    height: 125px;
+    margin:  0px 27px 27px 37px;
+}
+
+#campoDeBusca::-webkit-input-placeholder {
+    font-size: 50px;
+}    
+.containerHeader{
+    
+    background-color: #706E3E;
+}
+
+.container{
+    font-size: 40px;
+    width: 100%;
+    height: 440px;
+    padding: 30px 30px 30px 30px;
+}
+.corpo{
+    background-color: #D6D176;
+    margin: 50px auto;
+    width:840px;
+    display: block;/*div embaixo do outro*/
+}
+
+figure {
+    width: 40%;
+}
+
+.dadosDoLivro{
+    width: 60%;
+    text-align: left;
+}
+
+.produto {
+    display: flex;
+}
+
+.livro{
+    display: flex;
+    float: left;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.comprar{
+    background-color: #2AB6E6;
+    border: none;
+    border-radius: 7px;
+    width: 250px;
+    height: 70px;
+    font-size: 30px;
+    
+}
+
+h2{
+    margin-left: 40px;
+}
+
+.descricao p {
+    margin: 0 35px 0 40px;
+}

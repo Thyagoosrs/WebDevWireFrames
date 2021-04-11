@@ -1,12 +1,79 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Detalhes do Produto</title>
-</head>
-<body>
+<html lang="en">
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+<head>
+    <meta charset="UTF-8">
+    <!--meta name="viewport" content="width=device-width, initial-scale=1.0"-->
+    <title>Detalhes do Produto</title>
+    <link rel="stylesheet" href="css/detalhesProduto.css">
+    <link rel="stylesheet" href="icomoon/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="containerHeader">
+        <div>
+            <span class="icon-menu"></span>
+            <img src="" alt="Logo">
+            <span class="icon-cart"></span>
+        </div>
+        <div>
+            <input id="campoDeBusca" type="text" placeholder="  O que procura?">
+        </div>
+    </header>
+
+    <div class="corpo">
+        <div class="container">
+
+            <div class="produto">
+                <figure>
+                    <img class="livro" src="./img/HP-Reliquias_da_morte.jpg" alt="Image Card 01">
+                </figure>
+                <div class="dadosDoLivro">
+                    <h3>Harry Potter e as Relíquias da Morte</h3>
+                    <p>Rowling, J. K.</p>
+
+                    <div class="containerStars">
+                        <span class="icon-star-full"></span>
+                        <span class="icon-star-full"></span>
+                        <span class="icon-star-full"></span>
+                        <span class="icon-star-full"></span>
+                        <span class="icon-star-empty"></span>
+                        <!-- <figure>
+                            <img class="star1" style="width: 50px;" src="./img/star_preenchido.png">
+                            <img class="star2" style="width: 50px;" src="./img/star_preenchido.png">
+                            <img class="star3" style="width: 50px;" src="./img/star_preenchido.png">
+                            <img class="star4" style="width: 50px;" src="./img/star_preenchido.png">
+                            <img class="star5" style="width: 50px;" src="./img/star_vazado.png">
+                        </figure> -->
+                    </div>
+
+                    <p>R$ 29,90</p>
+                    <button class="comprar">Comprar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="descricao">
+            <h2>Sinopse</h2>
+            <p>'Harry Potter e as relíquias da morte', de J.K. Rowling, é o
+                sétimo e último livro da série. Voldemorte está cada vez
+                mais forte e Harry Potter precisa encontrar e aniquilar as
+                Horcruxes para enfraquecer o lorde e poder enfrentá-lo.
+                Nessa busca desenfreada, contando apenas com os amigos
+                Rony e Hermione, Harry descobre as Relíquias da Morte,
+                que serão úteis na batalha do bem contra o mal.</p>
+            <h2>Dados do Produto</h2>
+            <p>título: Harry Potter e as Relíquias da morte - 1ª ED.(2017)</p>
+            <p>isbn: 9788532530844</p>
+            <p>formato: 16 x 23</p>
+            <p>páginas: 512</p>
+            <p>editora: Rocca</p>
+            <p>ano de edição: 2017</p>
+        </div>
+    </div>
 
 </body>
+
 </html>
