@@ -20,10 +20,11 @@ body{
     border: none;
     border-radius: 20px;
     width: 910px; 
-    height: 125px;
+    height: 120px;
     margin:  0px 27px 27px 37px;
 }
 
+/*a letra "O que procura?"*/
 #campoDeBusca::-webkit-input-placeholder {
     font-size: 50px;
 }    
@@ -58,6 +59,11 @@ figure {
     display: flex;
 }
 
+.preco{
+    font-size: 50px;
+    
+}
+
 .livro{
     display: flex;
     float: left;
@@ -76,9 +82,28 @@ figure {
 }
 
 h2{
+    margin-top: 20px;
     margin-left: 40px;
+    margin-bottom: 10px;
+    font-size: 15px;
 }
 
 .descricao p {
-    margin: 0 35px 0 40px;
+    margin-left: 40px;
+    margin-right: 35px;
+    font-size: 13px;
+}
+
+.descricao p:last-child{
+    padding-bottom: 50px;
+}
+
+.icon-menu{
+    float: left;
+    margin-left: 40px;
+}
+
+.icon-cart{
+    float: right;
+    margin-right: 40px;
 }
