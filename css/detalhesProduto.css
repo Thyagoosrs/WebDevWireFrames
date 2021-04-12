@@ -3,16 +3,23 @@
     padding: 0;
     box-sizing: border-box;
   }
-#menu{
-    width: 8%;
-}
-#carrinho{
-    width: 8%;
-}
 
 body{
     font-family: 'Roboto', sans-serif;
     background-color: #2B2B2B;
+}
+
+.icon-menu{
+    float: left;
+    margin: 25px 0 25px 40px;
+    font-size: 100px; 
+}
+
+/*alterando somente o primeiro .icon-menu*/
+.containerHeader span:last-child{
+    float: right;
+    margin: 30px 40px 25px 0;
+    font-size: 90px;
 }
 
 #campoDeBusca{
@@ -27,9 +34,9 @@ body{
 /*a letra "O que procura?"*/
 #campoDeBusca::-webkit-input-placeholder {
     font-size: 50px;
-}    
-.containerHeader{
-    
+}  
+
+.containerHeader{   
     background-color: #706E3E;
 }
 
@@ -39,6 +46,7 @@ body{
     height: 440px;
     padding: 30px 30px 30px 30px;
 }
+
 .corpo{
     background-color: #D6D176;
     margin: 50px auto;
@@ -60,8 +68,7 @@ figure {
 }
 
 .preco{
-    font-size: 50px;
-    
+    font-size: 50px;  
 }
 
 .livro{
@@ -96,14 +103,4 @@ h2{
 
 .descricao p:last-child{
     padding-bottom: 50px;
-}
-
-.icon-menu{
-    float: left;
-    margin-left: 40px;
-}
-
-.icon-cart{
-    float: right;
-    margin-right: 40px;
 }
