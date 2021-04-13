@@ -12,8 +12,19 @@ body{
 
 .icon-menu{
     float: left;
-    margin: 25px 0 25px 40px;
     font-size: 100px; 
+    color: #D6D176;
+    width: 6.5rem;
+    padding-top: 3rem;
+    padding-left: 3rem;
+}
+
+.icon-cart01 {
+    float:right;
+    margin-top: 2rem;
+    margin-right: 2.5rem;
+    width: 6rem;
+    
 }
 
 /*alterando somente o primeiro .icon-menu*/
@@ -29,7 +40,7 @@ body{
     border-radius: 20px;
     width: 910px; 
     height: 120px;
-    margin:  0px 27px 27px 37px;
+    margin:  1.5rem 27px 27px 37px;
 }
 
 /*a letra "O que procura?"*/
@@ -48,11 +59,11 @@ body{
     /*padding: 30px 30px 30px 30px;*/
 }
 
-.corpo{
+.card{
     background-color: #D6D176;
     margin: 50px auto;
     width:840px;
-    height: 80rem;
+    height: 90rem;
 
     /*div embaixo do outro*/
     /*display: block;*/
@@ -66,51 +77,65 @@ figure {
 
 .dadosDoLivro h3 {
     text-align: center;
+    font-size: 4rem;
 }
 
 /*
 ========= Início =========
 Padding nos elementos abaixo do título do livro
 */
+/*Nome do autor*/
 .dadosDoLivro p {
-    padding-left: 4rem;
+    padding-left: 8rem;
+    font-size: 3rem;
 }
 
+/*Estrelas*/
 .containerStars {
-    padding-left: 4rem;
+    padding-left: 8rem;
+    font-size: 3rem;
 }
 
+/*Preço*/
 .preco {
-    padding-left: 4rem;
+    padding-left: 8rem;
 }
 
+/*Botão Comprar*/
 .dadosDoLivro button {
-    margin-top: 1rem;
-    margin-left: 4rem;
-    width: 82%;
+    color: white;
+    margin-top: 1.5rem;
+    margin-left: 7.5rem;
+    width: 70%;
+    height: 7rem;
+    /*Sombreado botão comprar*/
+    box-shadow: 5px 4px 4px #7D7D7D;
 }
-
 /*
 ========= Fim =========
 Padding nos elementos abaixo do título do livro
 */
 
+.dadosDoLivro h3 {
+    padding-top: 2rem;
+    
+}
+
+/*Alterando somente preço*/
+.dadosDoLivro p.preco {
+    font-size: 4rem;
+}
 
 .produto {
     display: grid;
 }
 
-
-.preco{
-    font-size: 50px;  
-}
-
 .livro{
     
     float: left;
-    width: 40rem;
+    width: 35rem;
     padding: 5px;
-    padding-left: 6rem;
+    padding-left: 8.5rem;
     margin: 0 auto;
 }
 
@@ -140,5 +165,7 @@ h1 {
 }
 
 .maisVendidos {  
-    margin-top: 2rem;
+    margin-top: 3rem;
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
 }
