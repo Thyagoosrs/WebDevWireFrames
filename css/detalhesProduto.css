@@ -11,8 +11,25 @@ body{
 
 .icon-menu{
     float: left;
-    margin: 25px 0 25px 40px;
     font-size: 100px; 
+    color: #D6D176;
+    width: 9.5rem;
+    padding-top: 3rem;
+    padding-left: 3rem;
+}
+
+.icon-cart01 {
+    float:right;
+    margin-top: 2rem;
+    margin-right: 2.5rem;
+    width: 6rem;
+    
+}
+
+.logo {
+    width: 23em;
+    margin: 2.6em 2em 0.4em;
+
 }
 
 /*alterando somente o primeiro .icon-menu*/
@@ -26,9 +43,9 @@ body{
     background-color:#BDBA75 ;
     border: none;
     border-radius: 20px;
-    width: 910px; 
+    width: 92%; 
     height: 120px;
-    margin:  0px 27px 27px 37px;
+    margin:  0.5rem 27px 27px 37px;
 }
 
 /*a letra "O que procura?"*/

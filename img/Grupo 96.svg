@@ -1,24 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="208" height="43" viewBox="0 0 208 43">
-  <g id="Grupo_96" data-name="Grupo 96" transform="translate(-18.5 -112.5)">
-    <line id="Linha_128" data-name="Linha 128" y2="40" transform="translate(20 114)" fill="none" stroke="#a8a128" stroke-linecap="round" stroke-width="3"/>
-    <line id="Linha_129" data-name="Linha 129" y2="40" transform="translate(24 114)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
-    <line id="Linha_130" data-name="Linha 130" y2="40" transform="translate(28 114)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
-    <line id="Linha_131" data-name="Linha 131" x2="15" transform="translate(28 114)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
-    <line id="Linha_132" data-name="Linha 132" x2="15" transform="translate(28 154)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
-    <line id="Linha_133" data-name="Linha 133" x2="11" transform="translate(32 150)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
-    <line id="Linha_134" data-name="Linha 134" x2="11" transform="translate(32 126)" fill="none" stroke="#a8a128" stroke-linecap="round" stroke-width="3"/>
-    <line id="Linha_135" data-name="Linha 135" x2="11" transform="translate(32 130)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
-    <line id="Linha_136" data-name="Linha 136" x2="11" transform="translate(32 134)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
-    <line id="Linha_137" data-name="Linha 137" x2="11" transform="translate(32 138)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
-    <line id="Linha_138" data-name="Linha 138" x2="11" transform="translate(32 142)" fill="none" stroke="#a8a128" stroke-linecap="round" stroke-width="3"/>
-    <line id="Linha_139" data-name="Linha 139" x2="11" transform="translate(32 146)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
-    <line id="Linha_140" data-name="Linha 140" x2="11" transform="translate(32 122)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
-    <line id="Linha_141" data-name="Linha 141" x2="11" transform="translate(32 118)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
-    <g id="Grupo_31" data-name="Grupo 31" transform="translate(-1312.5 -715.5)">
+  <g id="Grupo_96" data-name="Grupo 96" transform="translate(-80 -18.5)">
+    <g id="Grupo_30" data-name="Grupo 30" transform="translate(-1251 -809.5)">
+      <line id="Linha_128" data-name="Linha 128" y2="40" transform="translate(1332.5 829.5)" fill="none" stroke="#f0ea83" stroke-linecap="round" stroke-width="3"/>
+      <line id="Linha_129" data-name="Linha 129" y2="40" transform="translate(1336.5 829.5)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
+      <line id="Linha_130" data-name="Linha 130" y2="40" transform="translate(1340.5 829.5)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
+      <line id="Linha_131" data-name="Linha 131" x2="15" transform="translate(1340.5 829.5)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
+      <line id="Linha_132" data-name="Linha 132" x2="15" transform="translate(1340.5 869.5)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
+      <line id="Linha_133" data-name="Linha 133" x2="11" transform="translate(1344.5 865.5)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
+      <line id="Linha_134" data-name="Linha 134" x2="11" transform="translate(1344.5 841.5)" fill="none" stroke="#f0ea83" stroke-linecap="round" stroke-width="3"/>
+      <line id="Linha_135" data-name="Linha 135" x2="11" transform="translate(1344.5 845.5)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
+      <line id="Linha_136" data-name="Linha 136" x2="11" transform="translate(1344.5 849.5)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
+      <line id="Linha_137" data-name="Linha 137" x2="11" transform="translate(1344.5 853.5)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
+      <line id="Linha_138" data-name="Linha 138" x2="11" transform="translate(1344.5 857.5)" fill="none" stroke="#f0ea83" stroke-linecap="round" stroke-width="3"/>
+      <line id="Linha_139" data-name="Linha 139" x2="11" transform="translate(1344.5 861.5)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
+      <line id="Linha_140" data-name="Linha 140" x2="11" transform="translate(1344.5 837.5)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
+      <line id="Linha_141" data-name="Linha 141" x2="11" transform="translate(1344.5 833.5)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
+    </g>
+    <g id="Grupo_31" data-name="Grupo 31" transform="translate(-1251 -809.5)">
       <line id="Linha_142" data-name="Linha 142" y2="40" transform="translate(1363.5 829.5)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
-      <g id="Retângulo_94" data-name="Retângulo 94" transform="translate(1362 828)">
-        <path id="Caminho_6" data-name="Caminho 6" d="M2,0H24a3,3,0,0,1,3,3V20a3,3,0,0,1-3,3H3a3,3,0,0,1-3-3V2A2,2,0,0,1,2,0Z" fill="none"/>
-        <path id="Caminho_7" data-name="Caminho 7" d="M2,1.5H24A1.5,1.5,0,0,1,25.5,3V20A1.5,1.5,0,0,1,24,21.5H3A1.5,1.5,0,0,1,1.5,20V2A.5.5,0,0,1,2,1.5Z" fill="none" stroke="#2b2b2b" stroke-width="3"/>
+      <g id="Retângulo_94" data-name="Retângulo 94" transform="translate(1362 828)" fill="none" stroke="#2b2b2b" stroke-width="3">
+        <path d="M2,0H24a3,3,0,0,1,3,3V20a3,3,0,0,1-3,3H3a3,3,0,0,1-3-3V2A2,2,0,0,1,2,0Z" stroke="none"/>
+        <path d="M2,1.5H24A1.5,1.5,0,0,1,25.5,3V20A1.5,1.5,0,0,1,24,21.5H3A1.5,1.5,0,0,1,1.5,20V2A.5.5,0,0,1,2,1.5Z" fill="none"/>
       </g>
       <g id="Retângulo_96" data-name="Retângulo 96" transform="translate(1366 832)" fill="none" stroke="#2b2b2b" stroke-width="3">
         <rect width="19" height="15" rx="2" stroke="none"/>
@@ -32,12 +34,12 @@
       <line id="Linha_143" data-name="Linha 143" y2="35" transform="translate(1367.5 834.5)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
       <line id="Linha_144" data-name="Linha 144" y2="31" transform="translate(1371.5 838.5)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
     </g>
-    <g id="Grupo_32" data-name="Grupo 32" transform="translate(-1312.5 -715.5)">
+    <g id="Grupo_32" data-name="Grupo 32" transform="translate(-1251 -809.5)">
       <line id="Linha_146" data-name="Linha 146" y2="40" transform="translate(1396.5 829.5)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
       <line id="Linha_147" data-name="Linha 147" y2="40" transform="translate(1400.5 829.5)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
       <line id="Linha_148" data-name="Linha 148" y2="40" transform="translate(1404.5 829.5)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
     </g>
-    <g id="Grupo_33" data-name="Grupo 33" transform="translate(-1312.5 -715.5)">
+    <g id="Grupo_33" data-name="Grupo 33" transform="translate(-1251 -809.5)">
       <line id="Linha_149" data-name="Linha 149" y2="40" transform="translate(1413.5 829.5)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
       <line id="Linha_150" data-name="Linha 150" y2="36" transform="translate(1417.5 829.5)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
       <line id="Linha_151" data-name="Linha 151" y2="32" transform="translate(1421.5 829.5)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
@@ -45,7 +47,7 @@
       <line id="Linha_153" data-name="Linha 153" x1="20" transform="translate(1417.5 865.5)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
       <line id="Linha_154" data-name="Linha 154" x1="16" transform="translate(1421.5 861.5)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
     </g>
-    <g id="Grupo_34" data-name="Grupo 34" transform="translate(-1312.5 -715.5)">
+    <g id="Grupo_34" data-name="Grupo 34" transform="translate(-1251 -809.5)">
       <g id="Retângulo_98" data-name="Retângulo 98" transform="translate(1445 828)" fill="none" stroke="#2b2b2b" stroke-width="3">
         <rect width="27" height="43" rx="3" stroke="none"/>
         <rect x="1.5" y="1.5" width="24" height="40" rx="1.5" fill="none"/>
@@ -59,27 +61,25 @@
         <rect x="1.5" y="1.5" width="8" height="24" rx="0.5" fill="none"/>
       </g>
     </g>
-    <g id="Grupo_35" data-name="Grupo 35" transform="translate(-1312.5 -715.5)">
-      <g id="Retângulo_101" data-name="Retângulo 101" transform="translate(1478 828)" fill="none" stroke="#2b2b2b" stroke-width="3">
-        <rect width="27" height="43" rx="3" stroke="none"/>
-        <rect x="1.5" y="1.5" width="24" height="40" rx="1.5" fill="none"/>
-      </g>
-      <g id="Retângulo_102" data-name="Retângulo 102" transform="translate(1482 832)" fill="none" stroke="#2b2b2b" stroke-width="3">
-        <rect width="19" height="35" rx="2" stroke="none"/>
-        <rect x="1.5" y="1.5" width="16" height="32" rx="0.5" fill="none"/>
-      </g>
-      <g id="Retângulo_103" data-name="Retângulo 103" transform="translate(1486 836)" fill="none" stroke="#2b2b2b" stroke-width="3">
-        <rect width="11" height="27" rx="2" stroke="none"/>
-        <rect x="1.5" y="1.5" width="8" height="24" rx="0.5" fill="none"/>
-      </g>
-      <rect id="Retângulo_104" data-name="Retângulo 104" width="13" height="2" transform="translate(1493 847)" fill="#706e3e"/>
-      <rect id="Retângulo_105" data-name="Retângulo 105" width="9" height="7" transform="translate(1493 847)" fill="#706e3e"/>
-      <line id="Linha_155" data-name="Linha 155" x1="12" transform="translate(1491.5 849.5)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
-      <rect id="Retângulo_106" data-name="Retângulo 106" width="5" height="4" transform="translate(1493 854)" fill="#706e3e"/>
-      <line id="Linha_156" data-name="Linha 156" x1="8" transform="translate(1491.5 853.5)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
-      <line id="Linha_157" data-name="Linha 157" x1="4" transform="translate(1491.5 857.5)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
+    <g id="Retângulo_101" data-name="Retângulo 101" transform="translate(227 18.5)" fill="none" stroke="#2b2b2b" stroke-width="3">
+      <rect width="27" height="43" rx="3" stroke="none"/>
+      <rect x="1.5" y="1.5" width="24" height="40" rx="1.5" fill="none"/>
     </g>
-    <g id="Grupo_36" data-name="Grupo 36" transform="translate(-1312.5 -715.5)">
+    <g id="Retângulo_102" data-name="Retângulo 102" transform="translate(231 22.5)" fill="none" stroke="#2b2b2b" stroke-width="3">
+      <rect width="19" height="35" rx="2" stroke="none"/>
+      <rect x="1.5" y="1.5" width="16" height="32" rx="0.5" fill="none"/>
+    </g>
+    <g id="Retângulo_103" data-name="Retângulo 103" transform="translate(235 26.5)" fill="none" stroke="#2b2b2b" stroke-width="3">
+      <rect width="11" height="27" rx="2" stroke="none"/>
+      <rect x="1.5" y="1.5" width="8" height="24" rx="0.5" fill="none"/>
+    </g>
+    <rect id="Retângulo_104" data-name="Retângulo 104" width="10.37" height="2.5" transform="translate(243.63 37.5)" fill="#706e3e"/>
+    <rect id="Retângulo_105" data-name="Retângulo 105" width="7.4" height="7" transform="translate(242.5 37.5)" fill="#706e3e"/>
+    <line id="Linha_155" data-name="Linha 155" x1="12" transform="translate(240.5 40)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
+    <rect id="Retângulo_106" data-name="Retângulo 106" width="3.5" height="4" transform="translate(242.5 44.5)" fill="#706e3e"/>
+    <line id="Linha_156" data-name="Linha 156" x1="8" transform="translate(240.5 44)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
+    <line id="Linha_157" data-name="Linha 157" x1="4" transform="translate(240.5 48)" fill="none" stroke="#2b2b2b" stroke-linecap="round" stroke-width="3"/>
+    <g id="Grupo_36" data-name="Grupo 36" transform="translate(-1251 -809.5)">
       <g id="Retângulo_107" data-name="Retângulo 107" transform="translate(1512 828)" fill="none" stroke="#2b2b2b" stroke-width="3">
         <rect width="27" height="43" rx="3" stroke="none"/>
         <rect x="1.5" y="1.5" width="24" height="40" rx="1.5" fill="none"/>
