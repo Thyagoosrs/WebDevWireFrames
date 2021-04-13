@@ -3,52 +3,56 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME</title>
+    <!--meta name="viewport" content="width=device-width, initial-scale=1.0"-->
+    <title>Home</title>
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/global.css">
-    <!--<link rel="stylesheet" href="css/reset.css">-->
-
-
+    <link rel="stylesheet" href="icomoon/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="flaticon/font/flaticon.css">
 </head>
 
 <body>
-    <header>
-        <div class="containerHeader">
-            <div class="hamburger-menu">
-                <hr size=3 style="width: 2rem; text-align: left; margin-left: 1rem">
-                <hr size=3 style="width: 2rem; text-align: left; margin-left: 1rem">
-                <hr size=3 style="width: 2rem; text-align: left; margin-left: 1rem">
-            </div>
-            <div class="inputBusca">
-                <input type="text" style="background-color: #BDBA75; border: none; border-radius: 7px; width: 22rem; height: 2rem; " id="campoDeBusca" name="campo de busca" placeholder="O que procura?">
-            </div>
+    <header class="containerHeader">
+        <div>
+            <span class="icon-menu"></span>
+            <img src="" alt="Logo">
+            <span class="icon-cart"></span>
+
+        </div>
+        <div>
+            <input id="campoDeBusca" type="text" placeholder="  O que procura?">
         </div>
     </header>
 
-    <h3>Mais Vendidos</h3>
+    <div class="maisVendidos">
+        <h1 style="color: white">Mais Vendidos</h2>
+    </div>
 
+    <div class="corpo">
 
-    <div class="generalCards">
-        <div class="card">
-            <figure>
-                <img class="imageCard" src="./img/HP-Reliquias_da_morte.jpg" alt="Image Card 01">
-            </figure>
-            <div class="corpoCard">
-                <h3>Harry Potter e as Relíquias da Morte</h3>
-                <h4>Rowling, J. K.</h4>
-                <div class="containerStars">
-                    <figure>
-                        <img class="star1" style="width: 10px;" src="./img/star_preenchido.png">
-                        <img class="star2" style="width: 10px;"  src="./img/star_preenchido.png">
-                        <img class="star3" style="width: 10px;"  src="./img/star_preenchido.png">
-                        <img class="star4" style="width: 10px;"  src="./img/star_preenchido.png">
-                        <img class="star5" style="width: 10px;"  src="./img/star_vazado.png">
-                    </figure>
+        <div class="container">
+
+            <div class="produto">
+                <figure>
+                    <img class="livro" src="./img/HP-Reliquias_da_morte.jpg" alt="Image Card 01">
+                </figure>
+                <div class="dadosDoLivro">
+                    <h3>Harry Potter e as Relíquias da Morte</h3>
+                    <p style="font-style: italic;">Rowling, J. K.</p>
+
+                    <div class="containerStars">
+                        <span class="icon-star-full"></span>
+                        <span class="icon-star-full"></span>
+                        <span class="icon-star-full"></span>
+                        <span class="icon-star-full"></span>
+                        <span class="icon-star-empty"></span>
+
+                    </div>
+
+                    <p class="preco">R$ 24,90</p>
+                    <button class="comprar">Comprar <span class="icon-cart"></span></button>
                 </div>
-            </div>
-            <div class="purchaseButton">
-                <p>Comprar</p>
             </div>
         </div>
 
