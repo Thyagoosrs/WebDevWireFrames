@@ -4,116 +4,111 @@
     box-sizing: border-box;
   }
 
-body{
+  body{
     font-family: 'Roboto', sans-serif;
     background-color: #2B2B2B;
+}
+.containerHeader{
+    background-color: #706E3E;
 }
 
 .icon-menu{
     float: left;
-    font-size: 100px; 
-    color: #D6D176;
-    width: 9.5rem;
-    padding-top: 3rem;
-    padding-left: 3rem;
+    width: 3.5rem;
+    padding-top: 1.2rem;
+    padding-left: 1rem;
+}
+
+.logo {
+    width: 12em;
+    margin: 0.8em 0.6em 0.4em;
 }
 
 .icon-cart01 {
     float:right;
-    margin-top: 2rem;
-    margin-right: 2.5rem;
-    width: 6rem;
+    padding-top: 0.7rem;
+    padding-right: 1rem;
+    width: 3.5rem;
     
-}
-
-.logo {
-    width: 23em;
-    margin: 2.6em 2em 0.4em;
-
-}
-
-/*alterando somente o primeiro .icon-menu*/
-.containerHeader span:last-child{
-    float: right;
-    margin: 30px 40px 25px 0;
-    font-size: 90px;
 }
 
 #campoDeBusca{
     background-color:#BDBA75 ;
     border: none;
-    border-radius: 20px;
-    width: 92%; 
-    height: 120px;
-    margin:  0.5rem 27px 27px 37px;
+    border-radius: 0.5em;
+    width: 93%; 
+    height: 4em;
+    margin:  0 0 1em 1em;
 }
 
-/*a letra "O que procura?"*/
 #campoDeBusca::-webkit-input-placeholder {
-    font-size: 50px;
+    font-size: 1.5em;
 }  
 
-.containerHeader{   
-    background-color: #706E3E;
-}
-
 .container{
-    font-size: 40px;
     width: 100%;
-    height: 440px;
-    padding: 30px 30px 30px 30px;
+    height: 9.5em;
 }
 
 .corpo{
     background-color: #D6D176;
-    margin: 50px auto;
-    width:840px;
+    margin: 25px auto;
+    width:21em;
     display: block;/*div embaixo do outro*/
 }
 
 figure {
-    width: 40%;
+    width: 32%;
+    margin: 10px;
 }
 
 .dadosDoLivro{
     width: 60%;
     text-align: left;
+    margin: 10px;
 }
 
 .produto {
     display: flex;
 }
+h3{
+    font-size: 1.3em;
+}
+
+.autora {
+    font-size: 0.9em;
+}
 
 .preco{
-    font-size: 50px;  
+    font-size: 1.7em;  
 }
 
 .livro{
     display: flex;
     float: left;
+    width: 7em;
     padding: 5px;
-    margin: 0 auto;
 }
 
 .comprar{
     background-color: #2AB6E6;
     border: none;
-    border-radius: 7px;
-    width: 250px;
-    height: 70px;
-    font-size: 30px;
-    
+    border-radius: 5px;
+    width: 7em;
+    height: 2em;
+    font-size: 1em;
+    margin-left: 2em;
 }
 
 h2{
-    margin-top: 20px;
-    margin-left: 40px;
+    margin-top: 15px;
+    margin-left: 30px;
     margin-bottom: 10px;
     font-size: 15px;
 }
 
 .descricao p {
-    margin-left: 40px;
+    margin-left: 30px;
     margin-right: 35px;
     font-size: 13px;
 }
@@ -121,3 +116,11 @@ h2{
 .descricao p:last-child{
     padding-bottom: 50px;
 }
+
+/* @media (min-width: 800px){
+    
+    .icon-menu{
+        display: none;
+    }
+
+} */
