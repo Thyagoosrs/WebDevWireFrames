@@ -32,6 +32,7 @@
     
 }
 
+/*campo de busca do mobile*/
 #campoDeBusca{
     background-color:#BDBA75 ;
     border: none;
@@ -41,6 +42,19 @@
     margin:  0 0 1em 1em;
 }
 
+/*campo de busca do web*/
+#campoDeBusca1{
+    background-color:#BDBA75 ;
+    border: none;
+    border-radius: 0.5em;
+    width: 60%; 
+    height: 3.5em;
+    margin-top: 0.8em;
+    margin-right: 12em;
+    /* vertical-align: bottom; */  
+}
+
+/*aumentando o size da letra do input*/
 #campoDeBusca::-webkit-input-placeholder {
     font-size: 1.5em;
 }  
@@ -117,10 +131,54 @@ h2{
     padding-bottom: 50px;
 }
 
-/* @media (min-width: 800px){
-    
+@media(min-width: 800px) {
+    body{
+        background-color: aqua;
+    }
+
+    .containerHeader{
+        background-color: #706E3E;
+        height: 4.5em;
+    }
+
     .icon-menu{
         display: none;
     }
 
-} */
+    #campoDeBusca{
+        display: none;
+    }
+
+    /*alinhando os itens na horizontal ao centro*/
+    .cabecalho{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .corpo{
+        background-color: #D6D176;
+        margin: 25px auto;
+        width:55em;
+        display: block;/*div embaixo do outro*/
+    }
+
+    .produto{
+        height: 25em;
+    }
+
+    
+    .livro{
+        display: flex;
+        float: left;
+        width: 7em;
+        padding: 5px;
+    }
+}
+
+@media(max-width: 799px) {
+
+    #campoDeBusca1 {
+        display: none;
+    }
+}

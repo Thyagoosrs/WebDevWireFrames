@@ -121,3 +121,9 @@ figure {
     margin-right: 35px;
 }
 
+@media screen and(min-width: 600px) {
+    body{
+        background-color: aqua;
+    }
+}
+
