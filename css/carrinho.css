@@ -11,38 +11,49 @@ body{
 
 .icon-menu{
     float: left;
-    font-size: 100px; 
-    color: #D6D176;
-    width: 9.5rem;
-    padding-top: 3rem;
-    padding-left: 3rem;
+    width: 3.5rem;
+    padding-top: 1.2rem;
+    padding-left: 1rem;
 }
 
 .icon-cart01 {
     float:right;
-    margin-top: 2rem;
-    margin-right: 2.5rem;
-    width: 6rem;
-    
+    padding-top: 0.7rem;
+    padding-right: 1rem;
+    width: 3.5rem;
 }
 
 .logo {
-    width: 23em;
-    margin: 2.6em 2em 0.4em;
+    width: 12em;
+    margin: 0.8em 0.6em 0.4em;
 
 }
 
+/*campo de busca do mobile*/
 #campoDeBusca{
     background-color:#BDBA75 ;
     border: none;
-    border-radius: 20px;
-    width: 92%; 
-    height: 120px;
-    margin:  0.5rem 27px 27px 37px;
+    border-radius: 0.5em;
+    width: 93%; 
+    height: 4em;
+    margin:  0 0 1em 1em;
 }
 
+/*campo de busca do web*/
+#campoDeBusca1{
+    background-color:#BDBA75 ;
+    border: none;
+    border-radius: 0.5em;
+    width: 60%; 
+    height: 3.5em;
+    margin-top: 0.8em;
+    margin-right: 12em;
+    /* vertical-align: bottom; */  
+}
+
+/*aumentando o size da letra do input*/
 #campoDeBusca::-webkit-input-placeholder {
-    font-size: 50px;
+    font-size: 1.5em;
 } 
 
 .containerHeader{   
@@ -50,27 +61,26 @@ body{
 }
 
 .container{
-    font-size: 40px;
     width: 100%;
-    height: 440px;
-    padding: 30px 30px 30px 30px;
+    height: 29.5em;
 }
 
 .corpo{
     background-color: #D6D176;
-    margin: 50px auto;
-    width:840px;
-    height: 78em;
+    margin: 25px auto;
+    width:21em;
     display: block;/*div embaixo do outro*/
 }
 
 figure {
-    width: 40%;
+    width: 32%;
+    margin: 10px;
 }
 
 .dadosDoLivro{
     width: 60%;
     text-align: left;
+    margin: 10px;
 }
 
 .produto {
@@ -78,30 +88,30 @@ figure {
 }
 
 .preco{
-    font-size: 50px;  
+    font-size: 1.7em;  
 }
 
 #quantity {
-    padding: 0.5em 0.75em;
-    width: 130px;
-    height: 70px;
-    font-size: 27px;
+    padding: 0.5em 0.6em;
+    width: 2em;
+    height: 1em;
+    font-size: 1.5em;
 }
 
 .excluir{
     background-color: #F48585;
     border: none;
     border-radius: 7px;
-    width: 250px;
-    height: 70px;
-    font-size: 30px;
+    width: 5em;
+    height: 2em;
+    font-size: 1.3em;
 }
 
 .livro{
     display: flex;
     float: left;
+    width: 7em;
     padding: 5px;
-    margin: 0 auto;
 }
 
 .botoes{
@@ -112,18 +122,64 @@ figure {
      background-color: #2AB6E6;
      border: none;
      border-radius: 7px;
-     width: 35%;
-     height: 70px;
-     font-size: 30px;
+     width: 10.5em;
+     height: 2em;
+     font-size: 1em;
 }
 
 .continuarComprando{
-    margin-right: 35px;
+    margin-right: 0.5em;
 }
 
-@media screen and(min-width: 600px) {
+@media(min-width: 800px) {
     body{
         background-color: aqua;
+    }
+
+    .containerHeader{
+        background-color: #706E3E;
+        height: 4.5em;
+    }
+
+    .icon-menu{
+        display: none;
+    }
+
+    #campoDeBusca{
+        display: none;
+    }
+
+    /*alinhando os itens na horizontal ao centro*/
+    .cabecalho{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .corpo{
+        background-color: #D6D176;
+        margin: 25px auto;
+        width:55em;
+        display: block;/*div embaixo do outro*/
+    }
+
+    .produto{
+        height: 25em;
+    }
+
+    
+    .livro{
+        display: flex;
+        float: left;
+        width: 7em;
+        padding: 5px;
+    }
+}
+
+@media(max-width: 799px) {
+
+    #campoDeBusca1 {
+        display: none;
     }
 }
 
