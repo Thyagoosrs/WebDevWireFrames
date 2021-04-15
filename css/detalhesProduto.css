@@ -50,8 +50,17 @@
     width: 60%; 
     height: 3.5em;
     margin-top: 0.8em;
-    margin-right: 12em;
+    /* margin-right: 12em; */
     /* vertical-align: bottom; */  
+}
+
+.login{
+    width: 8em;
+    height: 2.5em;
+    font-size: 1em;
+    margin-top: 0.5em;
+    border-radius: 7px;
+    border: none;
 }
 
 /*aumentando o size da letra do input*/
@@ -179,6 +188,10 @@ h2{
 @media(max-width: 799px) {
 
     #campoDeBusca1 {
+        display: none;
+    }
+ 
+    .login{
         display: none;
     }
 }
