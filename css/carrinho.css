@@ -41,12 +41,12 @@ body{
 
 /*campo de busca do web*/
 #campoDeBusca1{
-    background-color:#BDBA75 ;
-    border: none;
-    border-radius: 0.5em;
-    width: 60%; 
+    width: 60%;
     height: 3.5em;
+    background-color: #BDBA75;
+    border-radius: 0.5em;
     margin-top: 0.8em;
+    border: none;
     /* margin-right: 12em; */
     /* vertical-align: bottom; */  
 }
@@ -151,7 +151,7 @@ figure {
     }
 
     .icon-menu{
-        display: none;
+        display:  none;
     }
 
     #campoDeBusca{
@@ -184,6 +184,8 @@ figure {
         padding: 5px;
     }
 }
+
+@media(min-width: 800px) {}
 
 @media(max-width: 799px) {
 

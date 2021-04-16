@@ -1,170 +1,189 @@
-
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
 
-
-body{
+  body{
     font-family: 'Roboto', sans-serif;
     background-color: #2B2B2B;
 }
 
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* ================== Style Header -- Início =============== */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.containerHeader{   
+    background-color: #706E3E;
+}
+
 .icon-menu{
     float: left;
-    font-size: 100px; 
-    color: #D6D176;
-    width: 6.5rem;
-    padding-top: 3rem;
-    padding-left: 3rem;
+    width: 3.5rem;
+    padding-top: 1.2rem;
+    padding-left: 1rem;
 }
 
 .icon-cart01 {
     float:right;
-    margin-top: 2rem;
-    margin-right: 2.5rem;
-    width: 6rem;
-    
+    padding-top: 0.7rem;
+    padding-right: 1rem;
+    width: 3.5rem;
 }
 
-/*alterando somente o primeiro .icon-menu*/
-.containerHeader span:last-child{
-    float: right;
-    margin: 30px 40px 25px 0;
-    font-size: 90px;
+.logo {
+    width: 12em;
+    margin: 0.8em 0.6em 0.4em;
+
 }
 
 #campoDeBusca{
     background-color:#BDBA75 ;
     border: none;
-    border-radius: 20px;
-    width: 910px; 
-    height: 120px;
-    margin:  1.5rem 27px 27px 37px;
+    border-radius: 0.5em;
+    width: 93%; 
+    height: 4em;
+    margin:  0 0 1em 1em;
 }
 
-/*a letra "O que procura?"*/
+.login{
+    width: 8em;
+    height: 2.5em;
+    font-size: 1em;
+    margin-top: 0.5em;
+    border-radius: 7px;
+    border: none;
+}
+
+/*aumentando o size da letra do input*/
 #campoDeBusca::-webkit-input-placeholder {
-    font-size: 50px;
-}  
+    font-size: 1.5em;
+} 
 
-.containerHeader{   
-    background-color: #706E3E;
-}
-
-.container{
-    font-size: 30px;
-    width: 100%;
-    height: 60rem;
-    /*padding: 30px 30px 30px 30px;*/
-}
-
-.card{
-    background-color: #D6D176;
-    margin: 50px auto;
-    width:840px;
-    height: 90rem;
-
-    /*div embaixo do outro*/
-    /*display: block;*/
-}
-
-figure {
+/*campo de busca do web*/
+#campoDeBusca1{
     width: 60%;
+    height: 3.5em;
+    background-color: #BDBA75;
+    border-radius: 0.5em;
+    margin-top: 0.8em;
+    border: none;
+    /* margin-right: 12em; */
+    /* vertical-align: bottom; */  
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* ================== Style Header -- Fim ================== */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* ================== Style Body -- Início ================= */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Mais Vendidos*/
+.maisVendidos {
+    color: white;
+    padding: 1em 0 1em 1em;
+    font-size: 0.7em;
+}
+
+/*Container do Card*/
+.container {
     align-items: center;
-    padding-top: 4rem;
+    background-color: #D6D176;
+    width: 354px;/*width: 22em;*/
+    background-color: #D6D176;
+    width: 22em;
+    margin: 0em 0em 1.5em 0.7em;
+    height: 36em;
+}
+
+/* ================== Style Card -- Início ================= */
+/*Foto do Livro*/
+.livro {
+    width: 15em;
+}
+
+figure.foto-livro-container {
+    text-align: center;
+    padding: 1em 0em 1em 0em;
+}
+
+/*Descrição do livro*/
+
+.author {
+    font-size: 1.2em;
+    padding-top: 0.4em;
+    padding-left: 1em;
 }
 
 .dadosDoLivro h3 {
     text-align: center;
-    font-size: 4rem;
+    font-size: 1.6em;
 }
 
-/*
-========= Início =========
-Padding nos elementos abaixo do título do livro
-*/
-/*Nome do autor*/
-.dadosDoLivro p {
-    padding-left: 8rem;
-    font-size: 3rem;
-}
-
-/*Estrelas*/
 .containerStars {
-    padding-left: 8rem;
-    font-size: 3rem;
+    font-size: 1.2em;
+    padding-left: 1em;
 }
 
-/*Preço*/
 .preco {
-    padding-left: 8rem;
+    font-size: 1.8em;
+    padding-left: 0.7em;
 }
 
-/*Botão Comprar*/
-.dadosDoLivro button {
-    color: white;
-    margin-top: 1.5rem;
-    margin-left: 7.5rem;
-    width: 70%;
-    height: 7rem;
-    /*Sombreado botão comprar*/
-    box-shadow: 5px 4px 4px #7D7D7D;
-}
-/*
-========= Fim =========
-Padding nos elementos abaixo do título do livro
-*/
-
-.dadosDoLivro h3 {
-    padding-top: 2rem;
-    
-}
-
-/*Alterando somente preço*/
-.dadosDoLivro p.preco {
-    font-size: 4rem;
-}
-
-.produto {
-    display: grid;
-}
-
-.livro{
-    
-    float: left;
-    width: 35rem;
-    padding: 5px;
-    padding-left: 8.5rem;
-    margin: 0 auto;
-}
-
-.comprar{
+.comprar {
     background-color: #2AB6E6;
+    width: 13em;
     border: none;
-    border-radius: 7px;
-    width: 250px;
-    height: 70px;
-    font-size: 2.5rem;
+    height: 2.1em;
+    margin: 0.7em 4em 0.5em 7em;
+    color: white;
+    border-radius: 0.5em;
 }
 
-h2{
-    margin-top: 20px;
-    margin-left: 40px;
-    margin-bottom: 10px;
-    font-size: 15px;
+/* ================== Style Card -- Fim ==================== */
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* ================== Style Body -- Fim ==================== */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+
+@media(min-width: 800px) {
+    /* Style Header -- Início */
+    .containerHeader{
+        background-color: #706E3E;
+        height: 4.5em;
+    }
+
+    .icon-menu{
+        display: none;
+    }
+
+    #campoDeBusca{
+        display: none;
+    }
+
+
+    .cabecalho{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
 }
 
-.descricao p:last-child{
-    padding-bottom: 50px;
-}
 
-h1 {
-    padding-left: 4rem;
-}
+@media(max-width: 799px) {
 
-.maisVendidos {  
-    margin-top: 3rem;
-    margin-left: 0.5rem;
-    font-size: 1.5rem;
+    #campoDeBusca1 {
+        display: none;
+    }
+
+    .login{
+        display: none;
+    }
 }

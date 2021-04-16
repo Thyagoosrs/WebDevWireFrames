@@ -142,7 +142,7 @@ h2{
 
 @media(min-width: 800px) {
     body{
-        background-color: aqua;
+        background-color: #2B2B2B;
     }
 
     .containerHeader{

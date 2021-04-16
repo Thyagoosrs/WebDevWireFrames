@@ -15,10 +15,19 @@
     <header class="containerHeader">
         <div class="cabecalho">
             <img class="icon-menu" src="./img/Grupo 92.svg" alt="Logo">
-            <img class="logo" src="img/Grupo 96.svg" alt="Logo">
+
+            <a style="cursor:pointer;" href="./index.html">
+                <img class="logo" src="img/Grupo 96.svg" alt="Logo">
+            </a>
+
             <input id="campoDeBusca1" type="text" placeholder="  O que procura?">
-            <button class="login">Login ou Cadastrar-se</button>
-            <img class="icon-cart01" src="./img/Icon feather-shopping-cart.svg" alt="Carrinho de compras">
+            <a href="javascript:alert('Essa tela ainda não está pronta! Em breve estará disponível!');">
+                <button style="cursor:pointer;" class="login">Login ou Cadastrar-se</button>
+            </a>
+
+            <a style="cursor:pointer;" href="./carrinho.html">
+                <img class="icon-cart01" src="./img/Icon feather-shopping-cart.svg" alt="Carrinho de compras">
+            </a>
         </div>
         <div>
             <input id="campoDeBusca" type="text" placeholder="  O que procura?">
@@ -27,16 +36,20 @@
 
     <div class="corpo">
         <div class="container">
-            
+
             <div class="produto">
                 <figure>
-                    <img class="livro" src="./img/HP-Reliquias_da_morte.jpg" alt="Image Card 01">
+                    <img style="cursor:pointer" class="livro" src="./img/HP-Reliquias_da_morte.jpg" alt="Image Card 01">
                 </figure>
                 <div class="dadosDoLivro">
                     <h3>Harry Potter e as Relíquias da Morte</h3>
                     <p class="preco">R$ 24,90</p>
                     <input type="number" id="quantity" name="quantity" min="1" value="1" max="99">
-                    <button class="excluir">Excluir</span></button>
+
+                    <a
+                        href="javascript:alert('Essa funcionalidade ainda não está pronta! Em breve estará disponível!');">
+                        <button style="cursor: pointer;" class="excluir">Excluir</span></button>
+                    </a>
                 </div>
             </div>
 
@@ -44,8 +57,12 @@
     </div>
     <footer>
         <div class="botoes">
-            <button class="continuarComprando">Continuar Comprando</button>
-            <button class="finalizarCompra">Finalizar Compra</button>
+            <a href="javascript:alert('Essa funcionalidade ainda não está pronta! Em breve estará disponível!');">
+                <button style="cursor: pointer;" class="continuarComprando">Continuar Comprando</button>
+            </a>
+            <a href="javascript:alert('Essa funcionalidade ainda não está pronta! Em breve estará disponível!');">
+                <button style="cursor: pointer;" class="finalizarCompra">Finalizar Compra</button>
+            </a>
         </div>
     </footer>
 
