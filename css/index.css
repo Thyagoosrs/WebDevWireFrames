@@ -58,9 +58,13 @@ body {
   font-size: 1.5em;
 }
 
+#campoDeBusca1::-webkit-input-placeholder {
+  font-size: 1.5em;
+}
+
 /*campo de busca do web*/
 #campoDeBusca1 {
-  width: 30%;
+  width: 45%;
   height: 3.5em;
   background-color: #bdba75;
   border-radius: 0.5em;
