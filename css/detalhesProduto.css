@@ -185,7 +185,7 @@ h2 {
     margin: 25px auto;
     display: block;
     height: 37em;
-    min-width: 90%;
+    min-width: 80%;
   }
 
   .produto {
@@ -196,9 +196,7 @@ h2 {
   .livro {
     display: inline-block;
     cursor: pointer;
-    min-width: 75%;
-    float: left;
-    width: 63%;
+    min-width: 15em;
     height: 100%;
     padding: 5px;
   }
