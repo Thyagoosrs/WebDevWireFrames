@@ -52,7 +52,7 @@ body {
   background-color: #bdba75;
   border: none;
   border-radius: 0.5em;
-  width: 30%;
+  width: 45%;
   height: 3.5em;
   margin-top: 0.8em;
   /* margin-right: 12em; */
@@ -70,6 +70,10 @@ body {
 
 /*aumentando o size da letra do input*/
 #campoDeBusca::-webkit-input-placeholder {
+  font-size: 1.5em;
+}
+
+#campoDeBusca1::-webkit-input-placeholder {
   font-size: 1.5em;
 }
 
