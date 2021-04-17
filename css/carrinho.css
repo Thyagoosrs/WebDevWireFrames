@@ -16,16 +16,16 @@ body {
   padding-left: 1rem;
 }
 
+.logo {
+  width: 12em;
+  margin: 0.8em 0.6em 0.4em;
+}
+
 .icon-cart01 {
   float: right;
   padding-top: 0.7rem;
   padding-right: 1rem;
   width: 3.5rem;
-}
-
-.logo {
-  width: 12em;
-  margin: 0.8em 0.6em 0.4em;
 }
 
 /*campo de busca do mobile*/
@@ -35,12 +35,12 @@ body {
   border-radius: 0.5em;
   width: 93%;
   height: 4em;
-  margin: 0 0 1em 1em;
+  margin: 10px 1em;
 }
 
 /*campo de busca do web*/
 #campoDeBusca1 {
-  width: 30%;
+  width: 45%;
   height: 3.5em;
   background-color: #bdba75;
   border-radius: 0.5em;
@@ -61,6 +61,10 @@ body {
 
 /*aumentando o size da letra do input*/
 #campoDeBusca::-webkit-input-placeholder {
+  font-size: 1.5em;
+}
+
+#campoDeBusca1::-webkit-input-placeholder {
   font-size: 1.5em;
 }
 
@@ -95,15 +99,22 @@ figure {
   display: flex;
 }
 
+h3 {
+  margin-top: 0.2em;
+}
+
 .preco {
   font-size: 1.7em;
+  margin-top: 1em;
 }
 
 #quantity {
-  padding: 0.5em 0.6em;
-  width: 2em;
-  height: 1em;
-  font-size: 1.5em;
+  padding: 0.5em 0.1em 0.5em 0.5em;
+  width: 3em;
+  height: 1.5em;
+  font-size: 1.2em;
+  border-radius: 3px;
+  border: none;
 }
 
 .excluir {
@@ -126,6 +137,10 @@ figure {
   text-align: center;
 }
 
+.botoes a {
+  text-decoration: none;
+}
+
 .continuarComprando,
 .finalizarCompra {
   background-color: #2ab6e6;
@@ -142,7 +157,7 @@ figure {
 
 @media (min-width: 800px) {
   body {
-    background-color: aqua;
+    background-color: #2b2b2b;
   }
 
   .containerHeader {
@@ -179,6 +194,7 @@ figure {
   .livro {
     display: flex;
     float: left;
+    margin-left: 4em;
     width: 7em;
     padding: 5px;
   }
