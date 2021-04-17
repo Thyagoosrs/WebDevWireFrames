@@ -45,7 +45,8 @@ body {
 }
 
 .login {
-  width: 8em;
+  background-color: #d6d176;
+  width: 9em;
   height: 2.5em;
   font-size: 1em;
   margin-top: 0.5em;
@@ -206,6 +207,14 @@ figure.foto-livro-container {
 
   #campoDeBusca {
     display: none;
+  }
+
+  .usuario {
+    width: 1.5em;
+    float: left;
+    margin-top: 0.2em;
+    margin-left: 0.5em;
+    color: #fff;
   }
 
   .cabecalho {
